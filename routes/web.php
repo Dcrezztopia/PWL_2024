@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route yang dibuat
+// Membuat Route
 Route::get('/hello', [WelcomeController::class, 'hello']);
 
 // Route::get('/', [PageController::class, 'index']);
